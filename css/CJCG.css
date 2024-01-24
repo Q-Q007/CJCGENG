@@ -158,14 +158,13 @@ font-family: var(--base-font-family);
 
   .card{
     background-color:unset;
-    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     max-width: 60%;
     max-height: 60%;
     border: none;
     border-radius: 0%;
-    padding: 10px;
+    padding-top: 10px;
     text-align: center;
   }
 
@@ -174,18 +173,18 @@ font-family: var(--base-font-family);
     width: 450px;
   }
 
-  .imgAbout{
+  /* .imgAbout{
     width:300px;
     height: 150px;
     background-color: #e2e3e1;
     text-align: center;
-  }
+  } */
 
   .about-info{
     font-size: 15px;
     color: #517280;
     width: fix-content;
-    padding-top: 20px;
+    padding-top: 15px;
   }
   
   .cardTlt{   
