@@ -141,24 +141,24 @@ font-family: var(--base-font-family);
     background-repeat: no-repeat;
   }
 
-  .about {
+  /* .about {
     position: relative;
     overflow: hidden;
-  }
+  } */
 
-  .about-bglogo {
+  /* .about-bglogo {
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 
 
   .card{
-    background-color:rgba(128, 128, 128, 0.31);
-    margin-top: 4%;
+    background-color:unset;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     max-width: 60%;
@@ -182,7 +182,7 @@ font-family: var(--base-font-family);
   }
 
   .about-info{
-    font-size: 13px;
+    font-size: 15px;
     color: #517280;
     width: fix-content;
     padding-top: 20px;
@@ -1390,10 +1390,6 @@ font-family: var(--base-font-family);
 
   @media screen and (min-width: 1200px) {
 
-    .about-info h2 {
-      max-width: 70%;
-    }
-
     .card-body{
       font-size: 85%;
     }
@@ -1476,12 +1472,15 @@ font-family: var(--base-font-family);
       font-size: 22px;
     }
 
+    .about-info{
+      font-size: 13px;
+    }
 
-    .imgAbout{
+    /* .imgAbout{
       width:300px;
       height: 150px;
       text-align: center;
-    }
+    } */
 
     .teamTlt2{
       font-size: 50px;
