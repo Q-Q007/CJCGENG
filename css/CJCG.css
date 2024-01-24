@@ -181,10 +181,10 @@ font-family: var(--base-font-family);
   } */
 
   .about-info{
-    font-size: 15px;
+    font-size: 14px;
     color: #517280;
     width: fix-content;
-    padding-top: 15px;
+    padding-top: 10px;
   }
   
   .cardTlt{   
