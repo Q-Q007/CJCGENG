@@ -1278,7 +1278,6 @@ font-family: var(--base-font-family);
   .exchangeTlt{
     text-align: left;
     padding-top: 30px;
-    padding-bottom: 30px;
     margin-left: 30px;
   }
 
@@ -1324,16 +1323,17 @@ font-family: var(--base-font-family);
   }
 
   .imgMap{
-    width: 200px;
-    height: 140px;
+    width: 170px;
+    height: 130px;
     text-align: right;
+    margin-top: 25px;
   }
 
   .countries{
-    font-size: x-large;
+    font-size: 21px;
     color: #37241B;
     font-weight: bold;
-    font-family: var(--font-medium-family);
+    font-family: var(--base-font-family);
   }
 
   .ctyList hr{
@@ -1348,7 +1348,7 @@ font-family: var(--base-font-family);
   ul.ctyList{
     list-style-type: none;
     color: #37241B;
-    font-style: italic;
+    font-family: var(--font-medium-family);
   }
 
   .exchange-info2{
@@ -1365,7 +1365,6 @@ font-family: var(--base-font-family);
     left: 50%;
     transform:translate(-50%, -50%) ;
     margin-top: 250px;
-    
   }
 
   /*---------------------------------------
@@ -1610,14 +1609,14 @@ font-family: var(--base-font-family);
       width: 400px;
     }
 
+
     .imgMap{
       text-align: right;
       margin-left: 20px;
-      width: 200px;
-      height: 140px;
+      width: 150px;
+      height: 100px;
+      margin-top: 22px;
     }
-
-
 
     .project-info {
       right: 0;
