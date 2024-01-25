@@ -170,7 +170,7 @@ font-family: var(--base-font-family);
 
   .txtAbout{
     text-align: center;
-    width: 450px;
+    width: 550px;
   }
 
   /* .imgAbout{
@@ -847,22 +847,19 @@ font-family: var(--base-font-family);
   }
 
   .support-info1{
-    border: 1px solid #958176;
     text-align: center;
     border-radius: 4px;
     background-color: #b0bbc69c;
-    width: fit-content;
+    width: 300px;
+    min-width: 250px;
     padding: 10px;
     color: #80604b;
-    font-size: 18px;
-    min-width: 250px;
+    font-size: 15px;
     font-weight: bold;
     text-shadow: 1px 1px 5px white;
     margin-top: 0px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%,-20%);
-  }
+    clip-path: polygon(11% 0, 88% 0, 97% 20%, 97% 80%, 88% 100%, 12% 100%, 3% 80%, 3% 23%);
+   }
 
   .support-info2{
     color: white;
@@ -877,9 +874,7 @@ font-family: var(--base-font-family);
     padding-top: 15px;
     padding-bottom: 20px;
     font-size: 11px;
-    position: relative;
-    left: 5%;
-    right: 25%;
+
   }
 
   .sptclr{
@@ -1092,9 +1087,9 @@ font-family: var(--base-font-family);
     color: #FFDCB3;
   }
 
-  .imgline{
+  /* .imgline{
     text-align: center;
-  }
+  } */
 
   .Success{
     color: #EBCD80;
@@ -1324,6 +1319,10 @@ font-family: var(--base-font-family);
     font-family: var(--font-medium-family);
   }
 
+  .lineSty{
+    text-align: center;
+  }
+
   .imgMap{
     width: 200px;
     height: 140px;
@@ -1335,6 +1334,15 @@ font-family: var(--base-font-family);
     color: #37241B;
     font-weight: bold;
     font-family: var(--font-medium-family);
+  }
+
+  .ctyList hr{
+    width: 130px;
+    text-align: left;
+  }
+
+  .ctyList{
+    text-align: left;
   }
 
   ul.ctyList{
@@ -1536,6 +1544,10 @@ font-family: var(--base-font-family);
       background-position: center center;
     }
 
+    .line{
+      max-width: 400px;
+    }
+
     .imgSpt{
       width:300px;
       height: 100px;
@@ -1544,9 +1556,7 @@ font-family: var(--base-font-family);
 
 
     .support-info1{
-      border: 1px solid #958176;
       text-align: center;
-      border-radius: 4px;
       background-color: #b0bbc69c;
       width: fit-content;
       padding: 10px;
