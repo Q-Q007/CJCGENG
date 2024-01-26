@@ -1646,6 +1646,10 @@ font-family: var(--base-font-family);
       height: 200px;
     }
 
+    .container2{
+      width: 380px;
+    }
+
     .imgRvt{
       width: 450px;
     }
