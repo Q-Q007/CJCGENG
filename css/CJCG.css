@@ -321,9 +321,9 @@ font-family: var(--base-font-family);
     padding-top: 10px;
   }
 
-  .imgMission{
+  /* .imgMission{
     height: 120px;
-  }
+  } */
 
   .MissionTlt1{
     font-size: 50px;
@@ -366,7 +366,7 @@ font-family: var(--base-font-family);
     background-position: center center;
     background-repeat: no-repeat;
     padding-top: 35px;
-    font-size: small;
+    font-size: 5px;
   }
 
   .missionlogo{
@@ -595,6 +595,10 @@ font-family: var(--base-font-family);
     text-align: center;
     margin-top: 30px;
     font-family: 'DMSans', sans-serif;
+   }
+
+   .circle2 p{
+    font-size: 9px;
    }
 
    .lifelong-info2{
@@ -867,14 +871,12 @@ font-family: var(--base-font-family);
     text-align: center;
     background-color: #b0bbc69c;
     width: fit-content;
-    min-width: 400px;
     text-shadow: 4px 4px 5px #000000;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 20px;
     font-size: 11px;
-
   }
 
   .sptclr{
@@ -1496,6 +1498,11 @@ font-family: var(--base-font-family);
       padding-top: 220px;
     }
 
+    .circle{
+      width: 90px;
+      height: 90px;
+    }
+
     .MissionTlt1{
       font-size: 40px;
     }
@@ -1537,6 +1544,39 @@ font-family: var(--base-font-family);
       font-size:25px;
      }
 
+     .circle2{
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      font-size: 10px;
+     }
+
+     .circle2 p{
+      font-size: 6px;
+     }
+
+    .ll7{
+      width:100px;
+      height: 100px;
+      padding: 0px;
+    }
+
+    .container7{
+      width: 380px;
+    }
+
+    .overSty1{
+      font-size: 9px;
+    }
+
+    .overSty2{
+      font-size: 9px;
+    }
+
+    .overSty3{
+      font-size: 9px;
+    }
+
     .overseasTlt{
       width: auto;
       height: auto;
@@ -1565,7 +1605,10 @@ font-family: var(--base-font-family);
       text-shadow: 1px 1px 5px white;
     }
 
-
+    .support-info2{
+      font-size: 8px;
+      width: 300px;
+    }
     
     .support-info3{
       color: #80604B;
@@ -1584,12 +1627,6 @@ font-family: var(--base-font-family);
       margin-left: 10%;
       margin-right: 10%;
       font-size: 80%;
-    }
-
-    .ll7{
-      width:165px;
-      height: 160px;
-      padding: 0px;
     }
 
     .equity-info{
@@ -1618,11 +1655,6 @@ font-family: var(--base-font-family);
       margin-top: 22px;
     }
 
-    .project-info {
-      right: 0;
-      left: 0;
-      margin: 0 auto;
-    }
 
     .footer-link, 
     .site-footer .social-icon {
