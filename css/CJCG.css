@@ -365,9 +365,10 @@ font-family: var(--base-font-family);
     background-image: url('../images/kiteShape.png');
     background-position: center center;
     background-repeat: no-repeat;
-    padding-top: 31px;
-    font-size: 12px;
-
+    padding-top: 30px;
+    font-size: 11px;
+    margin: 0px;
+    padding-left: 10px;
   }
 
   /* .missionlogo{
@@ -380,6 +381,17 @@ font-family: var(--base-font-family);
     text-align: center;
     font-weight: bold;
     text-shadow: 1px 1px 10px white;
+  }
+
+  .ct2{
+    position: absolute;
+    color: #3B291F;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px white;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 10px;
   }
 
   .container5{
@@ -408,7 +420,7 @@ font-family: var(--base-font-family);
 
   #i1{
     float: right;    
-    margin: 0px 0 5px 0;
+    margin: -10px 0 5px 0;
   }
 
   .mission-info3{
@@ -1507,10 +1519,61 @@ font-family: var(--base-font-family);
     .MissionTlt2{
       font-size: 55px;
     }
+    
 
     .ct{
-      font-size: 11px;
+      font-size: 10px;
+      padding-top: 5px;
     }
+
+    .ct2{
+      text-align: center;
+      font-size: 10px;
+      padding-top: 14px;
+      padding-left: 10px;
+    }
+
+    .container5{
+      width: 350px;
+      position: absolute;
+      top:auto;
+      left: 50%;
+      transform:translate(-50%, -50%) ;
+      margin-top: 300px;
+      padding-top:0px ;
+    }
+
+    .mission-info2{
+      text-align: left;
+      font-size: small;
+      background-color: #3b291fcb;
+      clip-path: polygon(0 0, 98% 0, 90% 100%, 0% 100%);
+      height: 85px;
+    }
+  
+    .txtMission{
+      font-size: 7px;
+    }
+  
+    #i1{
+      float: right;    
+      margin: -15px 0px 0px 0px;
+    }
+  
+    .mission-info3{
+      text-align: right;
+      font-size: small;
+      background-color: #517280b6;
+      margin-top: 15px;
+      clip-path: polygon(10% 0, 97% 0, 97% 100%, 0 100%);
+      height: 90px;
+    }
+  
+    #i2{
+      float: left;    
+      margin: -10px 0px 0px 25px;
+    }
+    
 
     .imgSolution{
       width:450px;
@@ -1585,7 +1648,7 @@ font-family: var(--base-font-family);
     }
 
     .line{
-      max-width: 400px;
+      max-width: 350px;
     }
 
     .imgSpt{
