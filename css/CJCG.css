@@ -83,47 +83,50 @@ font-family: var(--base-font-family);
      First Page            
   -----------------------------------------*/
 
-.first {
+  video {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;    
+    z-index: -1;
+  }
+
+  .video-wrapper1 {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* .first {
     min-height: 100vh;
     background-image: url("../images/bg.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-  }
+  } */
   
 .first-logo{
     position: relative;
-  
 }
 
 .center{
   position: absolute;
-  top: 25%;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(10%, -115%);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.hero-text {
-  bottom: 2em;
-  line-height: 800px;
-  text-align: center;
-
-  }
-
-.hero-text p{
-  line-height: 100px;
-  text-align:center;
-  color: white;
-  text-shadow: 2cm;
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
 
 .slogan{
+  position: relative;
+  margin-top: 600px;
   text-align: center;
   color: white;
   font-size: 17px;
@@ -554,10 +557,13 @@ font-family: var(--base-font-family);
   -----------------------------------------*/
   .lifelong{
     min-height: 100vh;
-    background-image: url("../images/bglifelong.png");
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    /* background-image: url("../images/bglifelong.png");
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
    }
 
    .lifelongTlt{
@@ -790,10 +796,13 @@ font-family: var(--base-font-family);
   -----------------------------------------*/
   .supporting{
     min-height: 100vh;
-    background-image: url("../images/bgsupporting.png");
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    /* background-image: url("../images/bgsupporting.png");
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
 
   .supportingTlt{
@@ -1137,10 +1146,13 @@ font-family: var(--base-font-family);
   -----------------------------------------*/
   .revolution{
     min-height: 100vh;
-    background-image: url("../images/bgrevolution.png");
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    /* background-image: url("../images/bgrevolution.png");
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
 
   .revolutionTlt{
@@ -1174,10 +1186,10 @@ font-family: var(--base-font-family);
 
   .container2{
     position: absolute;
-    margin-top: 50px;
+    top: 33%;
     left: 50%;
-    transform:translate(-50%, -30%) ;
-    margin-top: 90px;
+    transform:translate(-50%, -50%) ;
+    margin-top: 110px;
     width: 380px;
     height: auto;
     border: 4px solid rgba(255, 255, 255, 0.455);
@@ -1239,9 +1251,9 @@ font-family: var(--base-font-family);
     text-align: center;
     font-weight: bold;
     position: absolute;
-    top:auto;
+    top: 35%;
     left: 50%;
-    transform:translate(-50%, -20%) ;
+    transform:translate(-50%, -50%) ;
     margin-top: 350px;
   }
 
@@ -1737,3 +1749,18 @@ font-family: var(--base-font-family);
       margin-left: 0;
     }
   }
+
+  /* not working
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+} */
