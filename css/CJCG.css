@@ -1629,6 +1629,10 @@ font-family: var(--base-font-family);
       font-size: 80%;
     }
 
+    .card-bodySpt{
+      font-size: x-small;
+    }
+
     .equity-info{
       font-size: 8px;
     }
