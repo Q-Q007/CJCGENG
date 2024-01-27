@@ -1428,53 +1428,31 @@ font-family: var(--base-font-family);
       padding-bottom: 20px;
     }
 
+    .lineS1{
+      width: 200px;
+    }
+
+    .lineS2{
+      width: 160px;
+      text-align: right;
+    }
+
   }
 
   @media screen and (min-width: 991px) {
 
-  .card-body{
-    font-size: 82%;
-  }
-
-    .project h2 {
-      max-width: 32%;
-      margin: 0 auto;
+    .container{
+      width: 600px;
+      padding-bottom: 20px;
     }
 
   }
 
   @media screen and (max-width: 991px) {
 
-
-    .card-body{
-      margin-left: 10%;
-      margin-right: 10%;
-      font-size: 80%;
-    }
-
-    .hero {
-      padding-top: 14em;
-    }
-
-    .hero-text {
-      bottom: 2em;
-    }
-
-    .navbar {
-      padding: 1em;
-    }
-
-    .navbar-collapse {
-      text-align: center;
-      padding: 2.5em 0;
-    }
-
-    .nav-link {
-      display: inline-block;
-    }
-
-    .navbar-expand-lg .navbar-nav .nav-link.contact {
-      margin: 1em 0;
+    .container{
+      width: 600px;
+      padding-bottom: 20px;
     }
 
     .copyright-text, 
@@ -1488,21 +1466,13 @@ font-family: var(--base-font-family);
 
   @media screen and (max-width: 767px) {
 
- 
-    h1 {
-      font-size: 36px;
-    }
-
-    h2 {
-      font-size: 28px;
-    }
-
-    h3 {
-      font-size: 22px;
-    }
-
     .about-info{
       font-size: 13px;
+    }
+
+    .container{
+      width: 400px;
+      padding-bottom: 20px;
     }
 
     /* .imgAbout{
